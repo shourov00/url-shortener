@@ -1,0 +1,76 @@
+:root {
+  --primary-color: #0052FF;
+  --primary-hover-color: #1b64fd;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.heading {
+  margin-top: 5rem;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.subtitle, .developer {
+  margin-top: 0;
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin-bottom: .5rem;
+
+  a {
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--primary-color)
+  }
+}
+
+.developer {
+  font-size: .9rem;
+}
+
+form, .output {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+  button {
+    padding: 1rem 5rem;
+    border-radius: 4px;
+    margin-left: 5rem;
+    font-size: 18px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    transition: all 0.1s ease-in;
+  }
+
+  button:hover {
+    cursor: pointer;
+    background-color: var(--primary-hover-color);
+  }
+}
+
+.output {
+  margin-top: 2rem;
+
+  h3 {
+    width: 100%;
+    color: var(--primary-color) !important;
+    padding: .5rem 1.2rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+  }
+
+  button {
+    background-color: aliceblue;
+    color: var(--primary-color);
+  }
+
+  button:hover {
+    color: white;
+  }
+}
