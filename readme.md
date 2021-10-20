@@ -2,7 +2,7 @@
 
 This app is builds with Node.js, React.js, PostgreSql.
 It takes a URL as input, send this to the Node.js Backend and store it in postgreSql database. Then it prints out the shortened url in the page.
-If the user inputs the URL in the browser it redirected to the original lnk.
+If the user inputs the URL in the browser it redirects user to the original lnk.
 
 ### Live Demo
 https://url-shortener-rabbi.herokuapp.com/
