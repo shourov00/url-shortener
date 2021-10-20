@@ -91,7 +91,7 @@ const Home = () => {
                 <p className={"subtitle"}>A URL shortener built with Node.js, Express.js, React.js & PostgreSql. <a
                     target={"_blank"} rel={"noreferrer"} href="https://github.com/shourov00/url-shortener" >Github Repo</a></p>
                 <p className={"developer"}>Developed by <a target={"_blank"} rel={"noreferrer"}
-                                                           href="www.fazleyrabbi.dev">Fazley Rabbi</a></p>
+                                                           href="https://fazleyrabbi.dev">Fazley Rabbi</a></p>
 
                 <form onSubmit={handleSubmit}>
                     <TextField

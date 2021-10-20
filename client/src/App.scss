@@ -74,3 +74,35 @@ form, .output {
     color: white;
   }
 }
+
+
+/////////////////////////////// RESPONSIVE
+/* Smartphones ---------------- */
+@media only screen and (max-width: 767px) {
+  .heading {
+    margin-top: 3rem;
+    font-size: 2rem;
+  }
+
+  form, .output {
+    margin-top: 2rem;
+    display: block;
+    text-align: center;
+
+    button {
+      margin-top: 1rem;
+      margin-left: 0;
+      padding: .8rem 3rem;
+    }
+  }
+
+  .output{
+    h3 {
+      word-break: break-all;
+      white-space: pre-wrap;
+      width: auto;
+      margin-bottom: 0;
+    }
+  }
+
+}
